@@ -9,7 +9,7 @@
 }
 
 body{
-  padding: 13% 20%;
+  padding: 10% 15%;
   background-color: hsl(0, 0%, 95%);
 }
 
@@ -18,7 +18,7 @@ main{
 }
 
 main div{
-  padding: 5%;
+  padding: 6%;
 }
 
 #orange{
@@ -35,7 +35,7 @@ main div{
   border-radius: 0 10px 10px 0;
 }
 
-h3{
+h1{
   color: hsl(0, 0%, 95%);
   font-family: "Big Shoulders Display";
   font-weight: 700;
@@ -46,10 +46,11 @@ p{
   font-size: 15px;
   font-family: "Lexend Deca";
   font-weight: 400;
+  line-height: 1.8;
 }
 
 button{
-  font-family: "Big Shoulders Display";
+  font-family: "Lexend Deca";
   font-weight: 700;
   border-radius: 25px;
   height: 40px;
