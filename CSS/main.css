@@ -1,0 +1,107 @@
+@font-face{
+  font-family : "Lexend Deca";
+  src : url("..\\Font\\Lexend_Deca\\LexendDeca-Regular.ttf")
+}
+
+@font-face{
+  font-family : "Big Shoulders Display";
+  src : url("..\\Font\\Big_Shoulders_Display\\BigShouldersDisplay-Bold.ttf")
+}
+
+body{
+  padding: 13% 20%;
+  background-color: hsl(0, 0%, 95%);
+}
+
+main{
+  display:flex;
+}
+
+main div{
+  padding: 5%;
+}
+
+#orange{
+  background-color: hsl(31, 77%, 52%);
+  border-radius: 10px 0 0 10px;
+}
+
+#blue{
+  background-color: hsl(184, 100%, 22%);
+}
+
+#gray{
+  background-color: hsl(179, 100%, 13%);
+  border-radius: 0 10px 10px 0;
+}
+
+h3{
+  color: hsl(0, 0%, 95%);
+  font-family: "Big Shoulders Display";
+  font-weight: 700;
+}
+
+p{
+  color: hsla(0, 0%, 100%, 0.75);
+  font-size: 15px;
+  font-family: "Lexend Deca";
+  font-weight: 400;
+}
+
+button{
+  font-family: "Big Shoulders Display";
+  font-weight: 700;
+  border-radius: 25px;
+  height: 40px;
+  padding: 0 20px;
+  margin-top: 60px;
+  border: 2px solid hsl(0, 0%, 95%);
+}
+
+#orange button{
+  color: hsl(31, 77%, 52%);
+}
+
+#blue button{
+  color: hsl(184, 100%, 22%);
+}
+
+#gray button{
+  color: hsl(179, 100%, 13%);
+}
+
+#orange button:hover,
+#blue button:hover,
+#gray button:hover{
+  color:  hsl(0, 0%, 95%);
+  background-color: inherit;
+  cursor: pointer;
+}
+
+.attribution {font-size: 11px;text-align: center}
+
+a { color: hsl(228, 45%, 44%);}
+
+@media (max-width: 376px) {
+  body{
+    padding: 5px;
+    background-color: hsl(0, 0%, 95%);
+  }
+
+  main{
+    display: block;
+  }
+
+  #orange{
+    border-radius: 10px 10px 0 0;
+  }
+
+
+  #gray{
+    border-radius: 0 0 10px 10px;
+  }
+
+  button{
+    margin-top: 10px;
+  }
+}
